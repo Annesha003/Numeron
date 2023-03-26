@@ -86,8 +86,8 @@ body {
 }
 
 #score-box {
-    font-size: 6vw;
-    border: 1px solid white;
+    font-size: 4vw;
+    /* border: 1px solid white; */
     padding: 2vw;
 }
 

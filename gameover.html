@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="game-cover flex-centered">
-    <img id="game-over-text" src="http://i1.faceprep.in/prograd-junior/gameover-text.png" alt="game-over">
-    <div id="score-box">Score: <span id="score-board"></span></div>
-    <img id="play-again-button" src="http://i1.faceprep.in/prograd-junior/play-again-button.png" alt="play-again"
-        class="play">
+  <body class="game-cover flex-centered">
+    <img
+      id="game-over-text"
+      src="http://i1.faceprep.in/prograd-junior/gameover-text.png"
+      alt="game-over"
+    />
+    <div
+      style="display: flex; align-items: center; justify-content: space-evenly"
+    >
+      <h1>Your Score is:</h1>
+      &nbsp; &nbsp; &nbsp;
+      <div id="score-box"></div>
+    </div>
+
+    <img
+      id="play-again-button"
+      src="http://i1.faceprep.in/prograd-junior/play-again-button.png"
+      alt="play-again"
+      class="play"
+    />
     <script src="./score.js"></script>
-</body>
-
+  </body>
 </html>

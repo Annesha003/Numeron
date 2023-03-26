@@ -74,6 +74,9 @@ plus.addEventListener("click",()=>{
         score++
         randomise()
         resetTime(timerId)
+        console.log("abc+score",score)
+localStorage.setItem("myScore",score);
+
     }else{
         location.href = "gameover.html"
     }
@@ -84,6 +87,9 @@ minus.addEventListener("click",()=>{
         score++
         randomise()
         resetTime(timerId)
+        console.log("abc-score",score)
+localStorage.setItem("myScore",score);
+
     }else{
         location.href = "gameover.html"
     }
@@ -94,6 +100,9 @@ mul.addEventListener("click",()=>{
         score++
         randomise()
         resetTime(timerId)
+        console.log("abc*score",score)
+localStorage.setItem("myScore",score);
+
     }else{
         location.href = "gameover.html"
     }
@@ -104,6 +113,9 @@ divide.addEventListener("click",()=>{
         score++
         randomise()
         resetTime(timerId)
+        console.log("abc/score",score)
+localStorage.setItem("myScore",score);
+
     }else{
         location.href = "gameover.html"
     }
@@ -114,11 +126,11 @@ modulus.addEventListener("click",()=>{
         score++
         randomise()
         resetTime(timerId)
+        console.log("abc%score",score)
     }else{
         location.href = "gameover.html"
     }
-})
-
+}) 
 // setInterval(()=>{
 //     console.log(1+3)
 // },3000)
